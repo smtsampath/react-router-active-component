@@ -43,7 +43,7 @@ let Dashboard = React.createClass({
   render() {
     return <div className="Dashboard">
       <h2>Dashboard</h2>
-      <p>I'm a regular paragraph.</p>
+      <p>Im a regular paragraph.</p>
       <ActivePara to="/" activeClassName="special" onlyActiveOnIndex>
         I get highlighted because the Dashboard route is active.
       </ActivePara>
